@@ -1,0 +1,21 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+crash.*.log
+
+# Local configuration
+terraform.tfvars
+*.auto.tfvars
+
+# Credentials and private keys
+*.pem
+*.key
+.terraformrc
+terraform.rc
+
+# Operating system
+.DS_Store
+Thumbs.db
